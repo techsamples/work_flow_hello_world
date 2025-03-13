@@ -1,0 +1,8 @@
+name: print-name
+on: [push]
+jobs:
+  print_name_job:
+    runs-on: ubuntu-latest
+    steps:
+     - name: Print Name
+       run: echo "GitHub Actions Workflow - print-name"
